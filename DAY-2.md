@@ -1,4 +1,3 @@
-
 # Git Advanced Commands Documentation
 
 **Continuation of Git Core Documentation** - Additional commands following the same **Definition → Explanation → Use Cases → Examples → Interview Q&A** pattern.
