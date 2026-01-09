@@ -6,35 +6,64 @@ Branching strategies provide rules for creating, naming, and merging branches to
 Git Branching ----used to
 
 1 git branch   ---------     [ listing branches ]
-  * main
+  
+* main
+
 =========Creating New Branch=========================
+
+
 2 git branch dev -------     [ new(dev) branch creation ]
+
  git branch   
   dev
  * main
+
+
 3 git branch qa
+
+
 4 git branch uat
+
+
 5 git branch
+
   dev
  *main
   uat
+
+  
 ===========Deletion Branch =========================
+
+
 git branch -d dev
 dev deleted
+
+
 ===========Rename Branch ============================
+
+
 git branch -m dev development   [ here -m name ]
+
+
 
 ==========Branch switching or Checkout =============
 
+
 For instance I have 5 Branches just assume like 1 dev  2 main 3 Hotfix 4 Bugfix 5 production
 How to switch one branch to another branch 
+
 ----- using checkout command like------------
 present im in 'main' branch and other branches are 1 dev 2 Hotfix 3 bugfix 4 production
 
+
 $ git checkout dev
 Switched to branch 'dev' now looks like
+
+
 Admin@DESKTOP-MPV56KN MINGW64 /d/GIT-PRACTICE (dev) 
 $
+
+
 Now i want to check how many branches in my local then---
 git branch --- it shows 
   bugfix
@@ -43,13 +72,20 @@ git branch --- it shows
 * main
   production
 
+  
+
 -> Now my requirement is i want to create one branch and automatically switched to that branch itself ---
+  
   git checkout -b staging 
   git checkout -b staging
 Switched to a new branch 'staging'
 Admin@DESKTOP-MPV56KN MINGW64 /d/GIT-PRACTICE (staging)
 
+
+
 ---For Instance listing branches---
+
+
  git branch
   bugfix
   dev
@@ -57,9 +93,13 @@ Admin@DESKTOP-MPV56KN MINGW64 /d/GIT-PRACTICE (staging)
   main
   production
 * staging
+
+
 Here my requirement is How to delete any one branch as you like ok  i want to delete 'dev'
 git branch -d dev
 Deleted branch dev (was 9eedfd6).
+
+
 ---> now listing branches 
  git branch
   bugfix
@@ -67,6 +107,8 @@ Deleted branch dev (was 9eedfd6).
   main
   production
 * staging
+
+
 And Now i want to delete staging branch ...How could you do that ..? Is it possible absolutely not possible when you are in current branch and delte the same branch is not possible..
 If you wanted to then switching Branch any one of them and delete the required branch otherwise absoutely not possible in cuurent branch
 
