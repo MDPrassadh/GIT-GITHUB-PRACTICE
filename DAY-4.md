@@ -4,6 +4,7 @@ Git and GitHub branching strategies define structured ways to manage code change
 Branching strategies provide rules for creating, naming, and merging branches to handle features, releases, and hotfixes systematically. GitFlow uses multiple long-lived branches like main, develop, feature, release, and hotfix for structured releases. GitHub Flow relies on a single main branch with short-lived feature branches for continuous deployment. Trunk-Based Development emphasizes frequent merges to a single trunk branch, often daily, to reduce integration risks.[2][3][4][1]
 
 Git Branching ----used to
+
 1 git branch   ---------     [ listing branches ]
   * main
 =========Creating New Branch=========================
