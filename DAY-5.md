@@ -34,19 +34,22 @@ After:   A---B---E---M (main)
 
 For Instance We have one main branch now there is bug in main branch code so main branch modification is not best approach then
 
-go for new branch creation from main branch new branch is hotfix branch now all code copied to hotfix bracnh from main branch itself what have it
-
-now in thoses code files all are tracked and added and committed and pushed to remote earlier so all are trcking files right if any changes happend
-
-they are modified files only not new things so at that scenario some changes will be done and now ready to commit now like using command is
+go for new branch creation from main branch new branch is hotfix branch now all code copied to hotfix bracnh
+ from main branch itself what have it now in thoses code files all are tracked and added and committed and pushed
+ to remote earlier so all are trcking  files right if any changes happend they are modified files only not new things
+so at that scenario some changes will be done and now ready to commit now like using command is
 
 <---> git commit -am "code updated"        [ -am all messages ]  when you commit like this it will save in local repo..
 
-this is the best approch if not done like that merge  will be happend. in this scenario git checkout to other branch and merge will work properly if not like that ...
+this is the best approch if not done like that merge  will be happend. in this scenario git checkout to other
+
+ branch and merge will work properly if not like that ...
 
 AUTO/BLIND MERGE------------------
 
-before git checkout you didn't commit and checkout to otehr branch automatically merge will be done through git checkout ..this is not recommended
+before git checkout you didn't commit and checkout to otehr branch automatically merge will be done through
+
+ git checkout ..this is not recommended
 
 this will prove not proper merge updataion in both branches and then check
 
@@ -55,12 +58,20 @@ git diff hotfix   ----------when you are in main branch
 
 git diff main     ----------when you are in hotfix branch  notice changes to be required
 
-hotfix branch changes made then go for PR pull request ..raise for desitination branch will like it and authorise that otherwise cancel
+hotfix branch changes made then go for PR pull request ..raise for desitination branch will like it and authorise that
+
+ otherwise cancel
 
 ================Merging IMP points to be noted before merging=====================================
 
-1 Code updatetion completed then certainly go for git commit -am "" before git checkout to required branch and then go  for merge this is the best approach
+1 Code updatetion completed then certainly go for git commit -am "" before git checkout to required branch and then go
+
+ for merge this is the best approach
 
 Merge Conflict:-------------------
 
-more than two developers are code updataing in different changes and commit individually and checkout out destination branch merge will try to do reaming deveopers are commited after updation of code now main branch ready to do merge now rejected to merge due to conflict from rest of branches are mis matched code then it will called merge conflict and inform to both developers and will understand the scenario and right one will keep the code and remaing developer will edit the code then only merge conflict will sort out..
+more than two developers are code updataing in different changes and commit individually and checkout out destination
+branch merge will try to do reaming deveopers are commited after updation of code now main branch ready to do merge now
+rejected to merge due to conflict from rest of branches are mis matched code then it will called merge conflict and
+inform to both developers and will understand the scenario and right one will keep the code and remaing developer will
+ edit the code then only merge conflict will sort out..
