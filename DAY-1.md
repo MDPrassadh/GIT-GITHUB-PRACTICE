@@ -330,3 +330,22 @@ git show --pretty=format:"%h %an %s"
 | `git restore` | Restore/unstage file changes |
 | `git show` | Show commit details |
 
+Admin@DESKTOP-MPV56KN MINGW64 /d/GIT-PRACTICE (main)
+$ git remote -v
+
+origin  https://github.com/MDPrassadh/GIT-GITHUB-PRACTICE.git (fetch)
+
+origin  https://github.com/MDPrassadh/GIT-GITHUB-PRACTICE.git (push)
+
+Admin@DESKTOP-MPV56KN MINGW64 /d/GIT-PRACTICE (main)
+$ git remote rename origin git-pra
+
+git remote -v
+
+Renaming remote references: 100% (3/3), done.
+
+git-pra https://github.com/MDPrassadh/GIT-GITHUB-PRACTICE.git (fetch)
+
+git-pra https://github.com/MDPrassadh/GIT-GITHUB-PRACTICE.git (push)
+
+
