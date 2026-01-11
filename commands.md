@@ -498,3 +498,4 @@
   642  grep git "history" > git-commands-only.md
   643  grep git > git-commands-only.md
   644  history > commands.md
+      
