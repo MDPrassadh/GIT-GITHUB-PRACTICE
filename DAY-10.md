@@ -10,21 +10,33 @@ cd ~/.ssh/
 vi config
 
 # MDPrassadh account
+
 Host github-mdprassadh
+
   HostName github.com
+  
   User git
+  
   IdentityFile C:/Users/Admin/.ssh/id_ed25519_mdprassadh
+  
   IdentitiesOnly yes
 
 # DurgaPrassadh account
+
 Host github-durgaprassadh
+
   HostName github.com
+  
   User git
+  
   IdentityFile C:/Users/Admin/.ssh/id_ed25519_durgaprassadh
+  
   IdentitiesOnly yes
 
 Host *
+
 ServerAliveInterval 30 # minutes
+
 ServerAliveCountMax 2 # Terminal
 
 ---------------------------------------------------
